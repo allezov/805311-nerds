@@ -23,19 +23,53 @@
       <h1 class="page-title">Магазин готовых шаблонов</h1>
       <section class="filters">
         <h2 class="visually-hidden">Фильтры товаров</h2>
-        <div class="price">
-          <span>Стоимость:</span>
-          <!--Форма Стоимость          -->
-        </div>
-        <div class="grid">
-          <span>Сетка:</span>
-          <!--Форма Сетка          -->
-        </div>
-        <div class="features-filter">
-          <span>Особенности:</span>
-          <!--Форма Особенности          -->
-        </div>
-          <a class="btn-filter" href="#">Показать</a>
+          <form class="filter!!!!!!!!!" method="get" action="https://echo.htmlacademy.ru">
+          <fieldset>
+              <legend>Стоимость:</legend>
+              <input type="range" min="0" max="25000" id="cost">
+              <label for="cost" class="visually-hidden">Стоимость шаблона</label>
+              <p>От<span class="cost-from-until">0</span>До<span class="cost-from-until">15000</span></p>
+          </fieldset>
+          <fieldset>
+              <legend>Сетка:</legend>
+              <ul>
+                  <li class="filter-option">
+                      <input class="visually-hidden" type="radio" value="adaptive" name="item" id="filter-adaptive">
+                      <label for="filter-adaptive">Адаптивная</label></li>
+                  <li class="filter-option">
+                       <input class="visually-hidden" type="radio" value="fixed" name="item" id="filter-fixed">
+                      <label for="filter-fixed">Фиксированная</label></li>
+                  <li class="filter-option">
+                       <input class="visually-hidden" type="radio" value="rubber" name="item" id="filter-rubber">
+                      <label for="filter-rubber">Резиновая</label></li>
+              </ul>
+            
+          </fieldset>
+          <fieldset>
+              <legend>Особенности:</legend>
+                <ul>
+                  <li class="filter-option">
+                      <input class="visually-hidden" type="checkbox" checked name="slide" id="slide">
+                      <label for="slide">Слайдер</label></li>
+                  <li class="filter-option">
+                      <input class="visually-hidden" type="checkbox" name="features" id="features">
+                       <label for="features">Блок преимуществ</label></li>
+                  <li class="filter-option">
+                      <input class="visually-hidden" type="checkbox" checked name="news" id="news">
+                       <label for="news">Новости</label></li>
+                  <li class="filter-option">
+                      <input class="visually-hidden" type="checkbox" name="galery" id="galery">
+                       <label for="galery">Галерея</label></li>
+                  <li class="filter-option">
+                      <input class="visually-hidden" type="checkbox" name="basket" id="basket">
+                      <label for="basket">Корзина</label></li>
+              </ul>
+              
+            
+          </fieldset>
+              <button type="submit" class="filter-button">Показать</button>
+          </form>
+      
       </section>
       <section class="sort">
         <ul class="sort-list">
@@ -143,13 +177,30 @@
        </div>     
        <div class="footer-social">
          <ul>
-           <li><a class="social-button" href="#">Вконтакте</a></li>
-           <li><a class="social-button" href="#">Фейсбук</a></li>
-           <li><a class="social-button" href="#">Инстаграм</a></li>       
+           <li><a class="social-button" href="https://vk.com">Вконтакте</a></li>
+           <li><a class="social-button" href="https://ru-ru.facebook.com/">Фейсбук</a></li>
+           <li><a class="social-button" href="https://www.instagram.com/">Инстаграм</a></li>       
          </ul>
          <b>Давайте дружить, это выгодно!</b>
          <p>Скидка 10% для друзей из социальных сетей</p>
        </div>
-     </footer>  
+     </footer>
+     <section class="write-us">
+         <h2>Напишите нам</h2>
+       <form class="form-write-us" action="https://echo.htmlacademy.ru" method="post">
+           <button class="btn-close">Закрыть форму обратной связи</button>
+           <p class="write-us-item">
+               <label for="name">Ваше имя:</label>
+               <input id="name" type="text" name="name" value="" placeholder="Имя Фамилия"></p>
+            <p class="write-us-item">
+               <label for="mail">Ваш e-mail:</label>
+               <input id="mail" type="text" name="name" value="" placeholder="email@example.com"></p>
+           <p class="write-us-item">
+               <label for="free-form">Текст письма:</label><br>
+               <textarea id="free-form" rows="5" cols="50"></textarea></p>
+           <button class="write-us-send" type="submit">Отправить</button>
+           
+       </form>
+     </section> 
   </body>
 </html>
