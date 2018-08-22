@@ -3,12 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
+      <div class="background">
     <header class="main-header">
       <nav class="main-navigation">
         <a class="main-header-logo">
-          <img src="img/index-logo.svg" width="368" height="153" alt="Логотип студии Нёрдс">
+          <img src="img/nerds-logo.png" width="160" height="65" alt="Логотип студии Нёрдс">
         </a>  
         <ul class="site-navigation">
           <li><a href="#">Студия</a></li>
@@ -27,30 +31,47 @@
           <p class="slide-text-1">Математически выверенный дизайн<br>
                   для вашего сайта или мобильного приложения.</p>
             <p><a href="#" class="btn-slide-1">Узнать больше</a></p>
+            <div class="img-slide-1"></div>
+        </div>
+           <div class="slide-2">
+          <p class="slide-header-1">Любим математику как никто другой</p>
+          <p class="slide-text-1">Никакого креатива, только математические формулы  для расчета идеальных пропорций.</p>
+            <p><a href="#" class="btn-slide-1">Узнать больше</a></p>
+            <div class="img-slide-2"></div>
+        </div>
+          <div class="slide-3">
+          <p class="slide-header-1">Только ночь, только хардкор</p>
+          <p class="slide-text-1">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+            <p><a href="#" class="btn-slide-1">Узнать больше</a></p>
+            <div class="img-slide-3"></div>
         </div>
       </section>
+        </div>
       <section class="features">
         <h2 class="visually-hidden">Преимущества</h2>
         <ul class="features-list">
           <li class="feature-item">
+            <div class="item-logo-1 feature"></div>
             <h3>Веб-Сайты</h3>
             <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-            <a href="#" class="btn-features">Заказать</a>
+            <a href="#" class="featuresbutton-1">Заказать</a>
            </li>
            <li class="feature-item">
+             <div class="item-logo-2 feature"></div>
              <h3>Приложения</h3>
              <p>Покорите топ-10 приложений в Appstore и Google Play</p>
-             <a href="#" class="btn-features">Заказать</a>
+             <a href="#" class="featuresbutton-2">Заказать</a>
            </li>
            <li class="feature-item">
+             <div class="item-logo-3 feature"></div>  
              <h3>Презентации</h3>
              <p>Вы даже не подозреваете насколько вы изумительны!</p>
-             <a href="#" class="btn-features">Заказать</a>
+             <a href="#" class="featuresbutton-3">Заказать</a>
            </li>
          </ul> 
        </section>
        <section class="info">
-         <b>Мы - маленькая,но гордая дизайн-сдудия из Краснодара.</b>
+         <b class="about-us">Мы - маленькая, но гордая дизайн-студия из Краснодара.</b>
          <p class="info-text">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
          <p class="info-order">Выполняем заказы на разработку:</p>
          <ul class="info-order-list">
@@ -61,16 +82,16 @@
          <div class="conditions">
            <div class="info-logo"></div>
            <p>С 2004 года любим точность во всем:</p>
-           <table>
+           <table class="conditions-table">
              <tr>
                  <th>146<sup>%</sup></th>
                <th>100<sup>%</sup></th>
                <th>50<sup>%</sup></th>
              </tr>
              <tr>
-               <td>Уровень<br>самоотдачи</td>
-               <td>Соблюдение<br>сроков</td>
-               <td>Минимальная<br>предоплата</td>
+               <td>Уровень самоотдачи</td>
+               <td>Соблюдение сроков</td>
+               <td>Минимальная предоплата</td>
              </tr>
            </table>
          </div>
@@ -114,13 +135,13 @@
          </div>    
        </div>     
        <div class="footer-social">
-         <ul>
+         <ul class="social">
            <li><a class="social-button" href="https://vk.com">Вконтакте</a></li>
            <li><a class="social-button" href="https://ru-ru.facebook.com/">Фейсбук</a></li>
            <li><a class="social-button" href="https://www.instagram.com/">Инстаграм</a></li>       
          </ul>
-         <b>Давайте дружить, это выгодно!</b>
-         <p>Скидка 10% для друзей из социальных сетей</p>
+         <b class="friend">Давайте дружить, это выгодно!</b>
+         <p class="discount">Скидка 10% для друзей из социальных сетей</p>
        </div>
      </footer>
      <section class="write-us">
@@ -129,13 +150,13 @@
            <button class="btn-close">Закрыть форму обратной связи</button>
            <p class="write-us-item">
                <label for="name">Ваше имя:</label>
-               <input id="name" type="text" name="name" value="" placeholder="Имя Фамилия"></p>
+               <input class="fix" id="name" type="text" name="name" value="" placeholder="Имя Фамилия"></p>
             <p class="write-us-item">
                <label for="mail">Ваш e-mail:</label>
-               <input id="mail" type="text" name="name" value="" placeholder="email@example.com"></p>
+               <input class="fix" id="mail" type="text" name="name" value="" placeholder="email@example.com"></p>
            <p class="write-us-item">
                <label for="free-form">Текст письма:</label><br>
-               <textarea id="free-form" rows="5" cols="50"></textarea></p>
+               <textarea class="fix" id="free-form" rows="5" cols="50" name="..."></textarea></p>
            <button class="write-us-send" type="submit">Отправить</button>
            
        </form>

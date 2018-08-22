@@ -1,0 +1,404 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+    
+    background-color: #FFFFFF;
+}
+
+.main-header-logo:hover{
+    opacity: 0.8;
+}
+.main-header-logo:active{
+    opacity: 0.3;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 30px;
+
+  background-color:#EEEEEE;
+}
+
+.site-navigation {
+    list-style: none;
+}
+
+.site-navigation a,
+.basket{
+    color: #000000;
+}
+
+.site-navigation a:hover,
+.basket:hover{
+  color: #FB595D;
+}
+
+.site-navigation a:focus,
+.basket:focus {
+  color: #A8A8A8; 
+}
+
+/*Активное состояние что бы подсвечивалась ссылка не понял как сделать    */
+
+.img-slide-1{
+    background-image: url(../img/slide1.png);
+    background-repeat: no-repeat;
+    
+    width: 698px;
+    height: 413px;
+}
+.img-slide-2{
+    background-image: url(../img/slide2.png);
+    background-repeat: no-repeat;
+    
+    width: 698px;
+    height: 413px;
+}
+.img-slide-3{
+    background-image: url(../img/slide3.png);
+    background-repeat: no-repeat;
+    
+    width: 698px;
+    height: 413px;
+}
+
+.slide-header-1{
+    font-size: 55px;
+    line-height: 55px; 
+}
+
+.background{
+    width: 1440px;
+    height:2500px;
+    background-color:#EEEEEE;
+}
+
+.btn-slide-1{
+    background-color:#FB565A; 
+    color:#FFFFFF; 
+}
+.btn-slide-1:hover{
+    background-color:#E74246; 
+}
+ 
+.btn-slide-1:focus{
+    background-color:#D7373B; 
+    border-top:3px solid #C13135;
+    color: #E26C6F;
+}
+
+.features-list{
+    list-style: none;
+}
+
+
+.item-logo-1{
+   background-image: url(../img/illustration-1.png);     
+}
+.item-logo-2{
+   background-image: url(../img/illustration-2.png);     
+}
+.item-logo-3{
+   background-image: url(../img/illustration-3.png);     
+}
+
+.feature{
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 146px; 
+}
+
+.feature-item h3{
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.featuresbutton-1{
+    color: #FFFFFF;
+    background-color: #FB565A;
+}
+
+.featuresbutton-2{
+    background-color:#00CA74; 
+    color: #FFFFFF;
+}
+
+.featuresbutton-3{
+    background-color:#EFC849;
+    color: #FFFFFF;
+}
+.featuresbutton-1:hover{
+    background-color: #E74246;
+}
+
+.featuresbutton-2:hover{
+   background-color:#00BC6C; 
+}
+
+.featuresbutton-3:hover{
+    background-color:#EAB534;
+}
+.featuresbutton-1:focus{
+    background-color: #D7373B;
+}
+
+.featuresbutton-2:focus{
+   background-color:#00AA62; 
+}
+
+.featuresbutton-3:focus{
+    background-color:#E5A722;
+}
+.features{
+   border-bottom:2px solid #EEEEEE;  
+}
+
+.about-us{
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.info-order{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/*список в виде тире задается как декоративный элемент? или есть html св-во которое из точек делает линии?*/
+.info-order-list{
+    list-style:none;
+}
+.conditions p{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    width: 360px;
+}
+
+.info-logo{
+    height: 208px;
+    width: 360px;
+    background-image:url(../img/nerds-illustration.png); 
+    background-repeat: no-repeat;   
+}
+
+ .conditions-table th{
+    font-size: 45px;
+     
+     
+}
+.conditions-table td{
+    width: 81.64px;
+    height: 35.39px;
+    line-height: 1.125;
+    font-size: 16px;
+}
+.partner-list{
+    list-style: none;  
+}
+
+.partner-item{
+    opacity: 0.2;    
+}
+
+.partner-item:hover{
+    opacity: 1;
+}
+.partner-item:active{
+    opacity: 0.1;
+}
+.map{
+    width: 1725px;
+    height: 808px;
+}
+
+.contacts-info{
+    width: 319px;
+    height: 308px;
+    font-size: 16px;
+    line-height: 18px;
+    
+}
+.contacts-info h3{
+    font-size: 18px;
+    line-height: 30px;
+}
+.contacts-btn{
+    background-color:#FB565A;
+    color: #ffffff;
+}
+
+.social{
+    list-style: none;   
+}
+
+.social-button{
+    background-color:#E1E1E1;
+    color:#FFFFFF;
+}
+
+.social-button:hover{
+    background-color:#E74246;
+}
+
+.social-button:focus{
+    background-color:#D7373B;
+}
+
+.btn-close{
+    opacity: 0.3;  
+}
+.btn-close:hover{
+    opacity: 1;  
+}
+.btn-close:focus{
+    opacity: 0.1;  
+}
+.fix{
+    border:2px solid #EBEEEF;
+}
+
+.fix:hover{
+    border:2px solid #DADCDD;
+}
+.fix:focus{
+    border:2px solid #7F7F7F;
+}
+.friend{
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.discount{
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.partner{
+    border-top:2px solid #EEEEEE;
+    border-bottom:2px solid #EEEEEE;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.page-title{
+    font-size: 55px;
+    line-height: 55px;
+}
+.upper{
+    text-transform: uppercase;
+        font-weight:bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+.filters fieldset {
+  border: none;
+}
+.filters ul {
+  list-style: none;
+  line-height: 20px;
+}
+.filter-button{
+    background-color:#eeeeee;
+}
+.filter-button:hover{
+    background-color:#dfdfdf;
+}
+.filter-button:active{
+    background-color:#d5d5d5;
+}
+.sort-list {
+    list-style: none;
+}
+.sort-right a{
+    color:#000000;
+    opacity:0.3;
+}
+.sort-right a:hover{
+    color:#000000;
+    opacity:0.6;
+}
+.sort-right a:focus,
+.sort-right a:active{
+    color:#000000;
+    opacity:1;
+}
+.cost-from-until{
+    background-color: #eeeeee;
+    width: 80px;
+    height: 38px;
+    text-align: center;
+}
+.filter-input + label{
+  opacity: 0.4;
+}
+.filter-input:hover + label{
+  opacity: 1;
+}
+.filter-input:disabled + label {
+  opacity: 0.1;
+}
+.catalog-list{
+    list-style: none;
+}
+.catalog-info{
+    width:360px;
+    height: 231px;
+    background-color: #eeeeee;
+    text-align: center;
+    font-size:16px;
+    line-height: 18px;
+    
+}
+.button{
+    background-color: #fb565a;
+}
+.button:hover{
+    background-color: #e74246;
+}
+.button:active{
+    background-color: #d7373b;
+    border-top: 3px solid #c13135;
+}
+.pagination-list{
+    list-style: none;
+}
+.item-name{
+    color: #000000;
+    font-size: 18px;
+    line-height: 30px;
+}
+.pagination-item a {
+  color: #000000;
+
+  background-color: #eeeeee;
+}
+
+.pagination-item a:hover{
+    background-color: #dfdfdf;
+}
+.pagination-item a:focus{
+    background-color: #d5d5d5;
+}
+.pagination-item-current a{
+    color:color: #000000;
+    background-color: #ffffff;
+     border:3px solid #dbdbdb;
+}
+.pagination-item-current a:hover,
+.pagination-item-current a:focus,
+.pagination-item-current a:active {
+  color: #000000;
+  background-color: #ffffff;
+    border:3px solid #dbdbdb;
+}
