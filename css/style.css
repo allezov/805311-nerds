@@ -6,7 +6,7 @@ body {
   font-size: 16px;
   line-height: 24px;
     
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 .main-header-logo:hover{
@@ -26,7 +26,7 @@ a {
   font-size: 16px;
   line-height: 30px;
 
-  background-color:#EEEEEE;
+  background-color:#eeeeee;
 }
 
 .site-navigation {
@@ -40,15 +40,13 @@ a {
 
 .site-navigation a:hover,
 .basket:hover{
-  color: #FB595D;
+  color: #db595d;
 }
 
 .site-navigation a:focus,
 .basket:focus {
-  color: #A8A8A8; 
+  color: #a8a8a8; 
 }
-
-/*Активное состояние что бы подсвечивалась ссылка не понял как сделать    */
 
 .img-slide-1{
     background-image: url(../img/slide1.png);
@@ -80,21 +78,21 @@ a {
 .background{
     width: 1440px;
     height:2500px;
-    background-color:#EEEEEE;
+    background-color:#eeeeee;
 }
 
 .btn-slide-1{
-    background-color:#FB565A; 
-    color:#FFFFFF; 
+    background-color:#fb565a; 
+    color:#ffffff; 
 }
 .btn-slide-1:hover{
-    background-color:#E74246; 
+    background-color:#e74246; 
 }
  
 .btn-slide-1:focus{
-    background-color:#D7373B; 
-    border-top:3px solid #C13135;
-    color: #E26C6F;
+    background-color:#d7373b; 
+    border-top:3px solid #c13135;
+    color: #e26c6f;
 }
 
 .features-list{
@@ -123,44 +121,44 @@ a {
     line-height: 30px;
     text-transform: uppercase;
 }
-.featuresbutton-1{
-    color: #FFFFFF;
-    background-color: #FB565A;
+.features-button-1{
+    color: #ffffff;
+    background-color: #fb565a;
 }
 
 .featuresbutton-2{
-    background-color:#00CA74; 
-    color: #FFFFFF;
+    background-color:#00ca74; 
+    color: #ffffff;
 }
 
 .featuresbutton-3{
-    background-color:#EFC849;
-    color: #FFFFFF;
+    background-color:#efc849;
+    color: #ffffff;
 }
 .featuresbutton-1:hover{
-    background-color: #E74246;
+    background-color: #e74246;
 }
 
 .featuresbutton-2:hover{
-   background-color:#00BC6C; 
+   background-color:#00bc6c; 
 }
 
 .featuresbutton-3:hover{
-    background-color:#EAB534;
+    background-color:#eab534;
 }
 .featuresbutton-1:focus{
-    background-color: #D7373B;
+    background-color: #d7373b;
 }
 
 .featuresbutton-2:focus{
-   background-color:#00AA62; 
+   background-color:#00aa62; 
 }
 
 .featuresbutton-3:focus{
-    background-color:#E5A722;
+    background-color:#e5a722;
 }
 .features{
-   border-bottom:2px solid #EEEEEE;  
+   border-bottom:2px solid #eeeeee;  
 }
 
 .about-us{
@@ -172,7 +170,7 @@ a {
     font-weight: bold;
     text-transform: uppercase;
 }
-/*список в виде тире задается как декоративный элемент? или есть html св-во которое из точек делает линии?*/
+
 .info-order-list{
     list-style:none;
 }
@@ -232,7 +230,7 @@ a {
     line-height: 30px;
 }
 .contacts-btn{
-    background-color:#FB565A;
+    background-color:#fb565a;
     color: #ffffff;
 }
 
@@ -241,16 +239,16 @@ a {
 }
 
 .social-button{
-    background-color:#E1E1E1;
-    color:#FFFFFF;
+    background-color:#e1e1e1;
+    color:#ffffff;
 }
 
 .social-button:hover{
-    background-color:#E74246;
+    background-color:#e74246;
 }
 
 .social-button:focus{
-    background-color:#D7373B;
+    background-color:#d7373b;
 }
 
 .btn-close{
@@ -263,14 +261,14 @@ a {
     opacity: 0.1;  
 }
 .fix{
-    border:2px solid #EBEEEF;
+    border:2px solid #ebeeef;
 }
 
 .fix:hover{
-    border:2px solid #DADCDD;
+    border:2px solid #dadcdd;
 }
 .fix:focus{
-    border:2px solid #7F7F7F;
+    border:2px solid #7f7f7f;
 }
 .friend{
     font-size: 36px;
@@ -283,8 +281,8 @@ a {
 }
 
 .partner{
-    border-top:2px solid #EEEEEE;
-    border-bottom:2px solid #EEEEEE;
+    border-top:2px solid #eeeeee;
+    border-bottom:2px solid #eeeeee;
 }
 
 .container h1{
@@ -391,7 +389,7 @@ a {
     background-color: #d5d5d5;
 }
 .pagination-item-current a{
-    color:color: #000000;
+    color: #000000;
     background-color: #ffffff;
      border:3px solid #dbdbdb;
 }
