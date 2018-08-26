@@ -1,4 +1,5 @@
 body {
+    width:1440px;
   margin: 0;
   padding: 0;
 
@@ -36,6 +37,7 @@ a {
 .site-navigation a,
 .basket{
     color: #000000;
+    
 }
 
 .site-navigation a:hover,
@@ -77,7 +79,7 @@ a {
 
 .background{
     width: 1440px;
-    height:2500px;
+    height:2250px;
     background-color:#eeeeee;
 }
 
@@ -126,12 +128,12 @@ a {
     background-color: #fb565a;
 }
 
-.featuresbutton-2{
+.features-button-2{
     background-color:#00ca74; 
     color: #ffffff;
 }
 
-.featuresbutton-3{
+.features-button-3{
     background-color:#efc849;
     color: #ffffff;
 }
@@ -283,6 +285,7 @@ a {
 .partner{
     border-top:2px solid #eeeeee;
     border-bottom:2px solid #eeeeee;
+    
 }
 
 .container h1{
@@ -292,6 +295,7 @@ a {
 .page-title{
     font-size: 55px;
     line-height: 55px;
+    
 }
 .upper{
     text-transform: uppercase;
@@ -398,5 +402,219 @@ a {
 .pagination-item-current a:active {
   color: #000000;
   background-color: #ffffff;
-    border:3px solid #dbdbdb;
+    border:3px solid #dbdbdb;   
+}
+
+.main-navigation{
+    width: 1160px;
+  display: flex;
+  flex-direction: row;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+
+.site-navigation{
+    display: flex;
+    width: 440px;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 280px;
+    padding: 0;   
+}
+.main-header{
+    margin-bottom: 85px;
+    background-color:#eeeeee; 
+}
+.slider{
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.slide-header-1{
+    width: 560px;
+    margin-bottom: 25px;
+}
+.background{
+    margin-bottom: 80px;
+}
+.features{
+    margin-left: 140px;
+    margin-right: 140px;
+    
+}
+.features-list{
+    display: flex;
+    padding: 0;
+    
+}
+.feature{
+    margin-bottom: 25px;
+}
+.feature-item h3{
+    margin-bottom: 25px;
+}
+.feature{
+    margin-right: 100px;
+}
+.feature-info{
+    width: 260px;
+    margin-bottom: 35px;
+}
+.features-margin{
+    margin-bottom: 80px;
+}
+.features{
+    margin-bottom: 80px;
+}
+.info{
+    width: 1160px;
+    margin-left: 140px;
+    margin-right: 140px;
+    display: flex;
+    justify-content: space-between;
+ 
+    
+}
+.info-about{
+    width: 660px;
+}
+.conditions{
+    width: 360px;
+}
+.info-logo{
+    margin-bottom: 40px;
+}
+.margin-cond{
+    margin-bottom: 45px;
+}
+.info-order-list li{
+    margin-bottom: 35px;
+}
+.info-order-list{
+    margin-bottom: 75px;
+}
+.partner{
+    width: 1160px;
+    margin-left: 140px;
+    margin-right: 140px; 
+    padding-top: 45px;
+    margin-bottom: 80px;
+}
+.partner-list{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 45px;
+    
+}
+.map{
+    display: flex;
+    flex-direction: column;
+
+}
+.contacts-info{
+    width: 319px;
+    height: 308px;
+    padding: 50px;
+    
+}
+.contacts-info h3{
+    margin-bottom: 35px;
+}
+.map{
+    margin-bottom: 70px;
+}
+.info-number{
+    margin-bottom: 35px;
+    
+}
+.footer-social{
+    display: flex; 
+    margin-left: 140px;
+    margin-right: 140px; 
+    
+}
+
+.social{
+    display: flex;
+   width: 260px;
+    margin-right: 140px;
+}
+.social li{
+    margin-right: 10px;
+}
+.friend{
+    width: 260px;
+}
+.inner-page .main-navigation {
+    height: 355px;
+}
+
+.catalog-columns{
+    margin-left: 140px;
+    display: flex;
+    justify-content: space-between;
+    width: 1160px;
+}
+.filters{
+    width: 260px;
+    height: 785px;
+    margin-top: 60px; 
+}
+.catalog{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    
+    
+}
+.sort-list{
+    display: flex;
+    padding: 0;
+    margin-top: 60px;
+}
+
+.sort-left{
+    width: 160px;
+    margin-right: 240px;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight:bold;
+    margin-bottom: 55px;
+}
+.sort-right{
+    margin-right: 25px;
+}
+.catalog-item{
+    width: 360px;
+    margin-bottom: 30px;
+}
+.catalog-list{
+    height: 2610px;
+    width: 760px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+     margin-bottom: 60px;
+}
+ .upper-cost{
+    margin-bottom: 55px;
+}
+.pagination-list{
+    margin: 0;
+    padding: 0;
+    display: flex 
+}
+.pagination-item{
+    height: 50px;
+    width:50px;
+    margin-right:10px;
+}
+.next{
+   width:260px; 
+}
+.inner-page .main-footer{
+    margin-top: 60px;
 }

@@ -7,7 +7,7 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="inner-page">
     <header class="main-header">
       <nav class="main-navigation">
         <a class="main-header-logo" href="index.html">
@@ -24,13 +24,13 @@
     </header> 
     <main class="container">
       <h1 class="page-title">Магазин готовых шаблонов</h1>
+        <div class="catalog-columns">
       <section class="filters">
-        <h2 class="visually-hidden">Фильтры товаров</h2>
+        <!--<h2 class="visually-hidden">Фильтры товаров</h2>-->
           <form class="form-filter" method="get" action="https://echo.htmlacademy.ru">
           <fieldset>
-              <legend class="upper">Стоимость:</legend>
+              <legend class="upper upper-cost">Стоимость:</legend>
               <input type="range" min="0"  max="25000" id="cost">
-              <label for="cost" class="visually-hidden">Стоимость шаблона</label>
               <p>От<span class="cost-from-until">0</span>До<span class="cost-from-until">15000</span></p>
           </fieldset>
           <fieldset>
@@ -73,6 +73,7 @@
               <button type="submit" class="filter-button">Показать</button>
           </form>
       </section>
+            <div class="sort-sort">
       <section class="sort">
         <ul class="sort-list">
           <li class="sort-left">Сортировать</li>
@@ -82,7 +83,7 @@
         </ul>     
       </section>
       <section class="catalog">
-        <h2 class="visually-hidden">Готовые шаблоны</h2>
+        <!--<h2 class="visually-hidden">Готовые шаблоны</h2>-->
         <ul class="catalog-list">
           <li class="catalog-item">
             <p>
@@ -161,31 +162,35 @@
           <li class="pagination-item pagination-item-current"><a>1</a></li>
           <li class="pagination-item"><a href="#">2</a></li>
           <li class="pagination-item"><a href="#">3</a></li>
-          <li class="pagination-item"><a href="#">Следующая</a></li>
+          <li class="pagination-item next"><a href="#">Следующая</a></li>
         </ul>        
       </section>
+        </div>
+        </div>
     </main>
            <footer class="main-footer">
        <div class="map">
-         <img src="img/map.jpg" alt="Карта">
-         <img src="img/map-marker.png" alt="Наш точный адрес">
+         <img src="img/map.jpg" alt="Карта" height="410" width="1440">
+         <img src="img/map-marker.png" alt="Наш точный адрес" height="190" width="231">
          <div class="contacts-info">
            <h3>NЁRDS DESIGN STUDIO</h3>
            <p>191186, Санкт-Петербург,<br>
               ул. Б.Конюшенная, д. 19/8</p>
-           <p>тел. +7(812)275-75-75</p>
+           <p class="info-number">тел. +7(812)275-75-75</p>
            <p><a class="contacts-btn" href="#">Напишите нам</a></p>
          </div>    
-       </div>     
+       </div>
        <div class="footer-social">
          <ul class="social">
            <li><a class="social-button" href="https://vk.com">Вконтакте</a></li>
            <li><a class="social-button" href="https://ru-ru.facebook.com/">Фейсбук</a></li>
            <li><a class="social-button" href="https://www.instagram.com/">Инстаграм</a></li>       
          </ul>
+           <div class="friend-discount">
          <b class="friend">Давайте дружить, это выгодно!</b>
          <p class="discount">Скидка 10% для друзей из социальных сетей</p>
        </div>
+         </div>
      </footer>
       <section class="write-us">
          <h2>Напишите нам</h2>
