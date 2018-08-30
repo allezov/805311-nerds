@@ -216,13 +216,17 @@ a {
     line-height: 22px;
 }
 
-.container h1{
-    text-align: center;
-}
-
 .page-title{
     font-size: 55px;
     line-height: 55px;
+    margin: 0;
+    text-align: center;
+    padding-top: 85px;
+    background-color: #eeeeee;
+    height: 241px;
+    box-sizing: border-box;
+    margin-bottom: 60px;
+    
 }
 .upper{
     text-transform: uppercase;
@@ -344,7 +348,6 @@ a {
     list-style: none;
 }
 .main-header{
-    margin-bottom: 85px;
     background-color:#eeeeee; 
 }
 .slider{
@@ -436,8 +439,12 @@ a {
     display: flex;
     flex-direction: column;
     margin-bottom: 70px;
-    width: 1725px;
-    height: 808px;
+    height: 416px;
+    overflow: hidden;
+}
+.map-img{
+    width: 100%;
+    height: auto;
 }
 .contacts-info{
     padding: 50px;
@@ -475,7 +482,8 @@ a {
 }
 
 .inner-page .main-navigation {
-    height: 355px;
+    height: 65px;
+   
     
 }
 
@@ -489,7 +497,7 @@ a {
 .filters{
     width: 260px;
     height: 785px;
-    margin-top: 60px;   
+    
 }
 .catalog{
     display: flex;
@@ -500,12 +508,12 @@ a {
 .sort-list{
     display: flex;
     padding: 0;
-    margin-top: 60px;
+    margin: 0;
     list-style: none;
 }
 
 .sort-left{
-    margin-top: 60px;
+    
     width: 160px;
     margin-right: 240px;
     font-size: 18px;
@@ -517,6 +525,7 @@ a {
     font-size:14px;
     line-height: 18px;
     margin-right: 25px;
+    font-weight: 400;
 }
 .catalog-item{
     width: 360px;
@@ -555,5 +564,17 @@ a {
 }
 .sort{
     display: flex;
-    
+}
+.visually-hidden{
+     position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;   
 }
