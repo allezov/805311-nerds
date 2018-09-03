@@ -13,13 +13,13 @@
         <a class="main-header-logo" href="index.html">
           <img src="img/nerds-logo.png" width="160" height="65" alt="Логотип студии Нёрдс">
         </a>  
-        <ul class="site-navigation">
+        <ul class="site-navigation inner-navigation">
           <li><a href="#">Студия</a></li>
           <li><a href="#">Клиенты</a></li>
           <li class="site-navigation-current"><a>Магазин</a></li>
           <li><a href="#">Контакты</a></li>
         </ul>
-        <p><a class="basket" href="#">Корзина</a></p>
+        <p class="basket-img"><a class="basket" href="#">Корзина</a></p>
       </nav>
     </header> 
     <main class="container">
@@ -30,26 +30,26 @@
           <form class="form-filter" method="get" action="https://echo.htmlacademy.ru">
           <fieldset>
               <legend class="upper upper-cost">Стоимость:</legend>
-              <input type="range" min="0"  max="25000" id="cost">
-              <p>От<span class="cost-from-until">0</span>До<span class="cost-from-until">15000</span></p>
+              <input class="range" type="range" min="0"  max="25000" id="cost">
+              <p class="from-until">От<span class="cost-from-until">0</span>До<span class="cost-from-until">15000</span></p>
           </fieldset>
           <fieldset>
-              <legend class="upper">Сетка:</legend>
+              <legend class="upper grid">Сетка:</legend>
               <ul>
                   <li class="filter-option">
-                      <input class="visually-hidden filter-input"   type="radio" value="adaptive" name="item" id="filter-adaptive" disabled>
+                      <input class="visually-hidden filter-input-radio"   type="radio" value="adaptive" name="item" id="filter-adaptive"checked>
                       <label for="filter-adaptive">Адаптивная</label></li>
                   <li class="filter-option">
-                       <input class="visually-hidden filter-input" type="radio" value="fixed" name="item" id="filter-fixed">
+                       <input class="visually-hidden filter-input-radio" type="radio" value="fixed" name="item" id="filter-fixed">
                       <label for="filter-fixed">Фиксированная</label></li>
                   <li class="filter-option">
-                       <input class="visually-hidden filter-input" type="radio" value="rubber" name="item" id="filter-rubber">
+                       <input class="visually-hidden filter-input-radio" type="radio" value="rubber" name="item" id="filter-rubber">
                       <label for="filter-rubber">Резиновая</label></li>
               </ul>
             
           </fieldset>
           <fieldset>
-              <legend class="upper">Особенности:</legend>
+              <legend class="upper especiali">Особенности:</legend>
                 <ul>
                   <li class="filter-option">
                       <input class="visually-hidden filter-input" type="checkbox" checked name="slide" id="slide">
@@ -75,7 +75,7 @@
       </section>
             <div class="sort-sort">
       <section class="sort">
-          <span class="sort-left">Сортировать</span>
+          <span class="sort-left">Сортировать:</span>
         <ul class="sort-list">
           <li class="sort-right"><a href="#">по цене</a></li>
           <li class="sort-right"><a href="#">по типу</a></li>
@@ -86,7 +86,8 @@
         <h2 class="visually-hidden">Готовые шаблоны</h2>
         <ul class="catalog-list">
           <li class="catalog-item">
-            <p>
+            <p class="up-panel">
+                <span class="img-panel"></span>
               <img src="img/img-sedona.jpg" alt="Сайт для туристов Sedona" width="360" height="576" >
             </p>
             <div class="catalog-info">
@@ -98,7 +99,8 @@
             </div>    
           </li>
           <li class="catalog-item">
-            <p>
+           <p class="up-panel">
+                <span class="img-panel"></span>
                 <img src="img/img-pink.jpg" alt="Pink" width="360" height="576">
             </p>
               <div class="catalog-info">
@@ -110,7 +112,8 @@
             </div>    
           </li>
           <li class="catalog-item">
-            <p>
+            <p class="up-panel">
+                <span class="img-panel"></span>
               <img src="img/img-barbershop.jpg" alt="barbershop" width="360" height="576">
             </p>
               <div class="catalog-info">
@@ -122,7 +125,8 @@
             </div>    
           </li>
           <li class="catalog-item">
-            <p>
+            <p class="up-panel">
+                <span class="img-panel"></span>
               <img src="img/img-mishka.jpg" alt="mishka" width="360" height="576">
             </p>
               <div class="catalog-info">
@@ -134,7 +138,8 @@
             </div>    
           </li>
           <li class="catalog-item">
-            <p>
+            <p class="up-panel">
+                <span class="img-panel"></span>
               <img src="img/img-aplus.jpg" alt="Aplus" width="360" height="576">
             </p>
               <div class="catalog-info">
@@ -146,7 +151,8 @@
             </div>    
           </li>
           <li class="catalog-item">
-            <p>
+            <p class="up-panel">
+                <span class="img-panel"></span>
               <img src="img/img-kvast.jpg" alt="Kvast" width="360" height="576">
             </p>
               <div class="catalog-info">
