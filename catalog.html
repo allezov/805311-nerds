@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Нёрдс-магазин шаблонов</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
@@ -16,7 +16,7 @@
         <ul class="site-navigation inner-navigation">
           <li><a href="#">Студия</a></li>
           <li><a href="#">Клиенты</a></li>
-          <li class="site-navigation-current"><a>Магазин</a></li>
+          <li class="site-navigation-current"><a class="active" href="#">Магазин</a></li>
           <li><a href="#">Контакты</a></li>
         </ul>
         <p class="basket-img"><a class="basket" href="#">Корзина</a></p>
@@ -43,14 +43,14 @@
                        <input class="visually-hidden filter-input-radio" type="radio" value="fixed" name="item" id="filter-fixed">
                       <label for="filter-fixed">Фиксированная</label></li>
                   <li class="filter-option">
-                       <input class="visually-hidden filter-input-radio" type="radio" value="rubber" name="item" id="filter-rubber">
+                       <input class="visually-hidden filter-input-radio" type="radio" value="rubber" name="item" id="filter-rubber" disabled>
                       <label for="filter-rubber">Резиновая</label></li>
               </ul>
             
           </fieldset>
           <fieldset>
               <legend class="upper especiali">Особенности:</legend>
-                <ul>
+                <ul class="especiali-filter">
                   <li class="filter-option">
                       <input class="visually-hidden filter-input" type="checkbox" checked name="slide" id="slide">
                       <label for="slide">Слайдер</label></li>
@@ -80,6 +80,8 @@
           <li class="sort-right"><a href="#">по цене</a></li>
           <li class="sort-right"><a href="#">по типу</a></li>
           <li class="sort-right"><a href="#">по названию</a></li>
+          <li class="sort-right treangle"><a href="#">по возрастанию</a></li>
+          <li class="sort-right treangle-inverse"><a href="#">по убыванию</a></li>
         </ul>     
       </section>
       <section class="catalog">
@@ -95,7 +97,7 @@
                 <a class="item-name" href="catalog.html">SEDONA</a>
               </h3>
                 <p>Информационный сайт<br> для туристов</p>
-                <button class="button">9900 РУБ.</button> 
+                <button class="button">9 900 РУБ.</button> 
             </div>    
           </li>
           <li class="catalog-item">
@@ -108,7 +110,7 @@
                 <a class="item-name" href="catalog.html">PINK</a>
               </h3>
                 <p>Продуктовый лендинг<br>приложения для iOS и Android</p>
-                <button class="button">9900 РУБ.</button> 
+                <button class="button">9 900 РУБ.</button> 
             </div>    
           </li>
           <li class="catalog-item">
@@ -121,7 +123,7 @@
                 <a class="item-name" class="item-name" href="catalog.html">BARBERSHOP</a>
               </h3>
                 <p>Сайт салона красоты.<br> Для мужчин, да</p>
-                <button class="button">9900 РУБ.</button> 
+                <button class="button">9 900 РУБ.</button> 
             </div>    
           </li>
           <li class="catalog-item">
@@ -134,7 +136,7 @@
                 <a class="item-name" href="catalog.html">MISHKA</a>
               </h3>
                 <p>Интернет магазин<br> вязаных игрушек</p>
-                <button class="button">9900 РУБ.</button> 
+                <button class="button">9 900 РУБ.</button> 
             </div>    
           </li>
           <li class="catalog-item">
@@ -147,7 +149,7 @@
                 <a class="item-name" href="catalog.html">A PLUS</a>
               </h3>
                 <p>Лендинг курсов повышения<br>квалификации</p>
-                <button class="button" >9900 РУБ.</button> 
+                <button class="button" >9 900 РУБ.</button> 
             </div>    
           </li>
           <li class="catalog-item">
@@ -160,7 +162,7 @@
                 <a class="item-name" href="catalog.html">KVAST</a>
               </h3>
                 <p>Промо-сайт производителя<br>крафтового кваса</p>
-                <button class="button">9900 РУБ.</button> 
+                <button class="button">9 900 РУБ.</button> 
             </div>    
           </li>
         </ul>     
@@ -174,14 +176,14 @@
         </div>
         </div>
     </main>
-            <footer class="main-footer">
+          <footer class="main-footer">
        <div class="map">
          <img class="map-img" src="img/map.jpg" alt="Карта" >
          <div class="contacts-info">
            <h3>NЁRDS DESIGN STUDIO</h3>
            <p>191186, Санкт-Петербург,<br>
-              ул. Б.Конюшенная, д. 19/8</p>
-           <p class="info-number">тел. +7(812)275-75-75</p>
+              ул. Б. Конюшенная, д. 19/8</p>
+           <p class="info-number">тел. +7 (812) 275-75-75</p>
            <p><a class="contacts-btn" href="#">Напишите нам</a></p>
          </div>    
        </div>
@@ -220,7 +222,7 @@
                <input class="fix" id="name" type="text" name="name" value="" placeholder="Имя Фамилия"></p>
             <p class="write-us-item">
                <label class="form-label" for="mail">Ваш e-mail:</label>
-               <input class="fix" id="mail" type="text" name="name" value="" placeholder="email@example.com"></p>
+               <input class="fix" id="mail" type="email" name="name" value="" placeholder="email@example.com"></p>
            </div>
            <p class="write-us-item">
                <label class="form-label" for="free-form">Текст письма:</label>
