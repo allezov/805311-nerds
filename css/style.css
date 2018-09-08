@@ -707,6 +707,7 @@ a {
 	padding-top: 18px;
 	padding-bottom: 15px;
 	background-color: #eeeeee;
+	border-radius: 3px;
 }
 
 .filter-button:hover {
@@ -1192,7 +1193,7 @@ a {
 	font-weight: 400;
 	color: #444444;
 	margin-top: 9px;
-	margin-bottom: 73px;
+	margin-bottom: 76px;
 }
 
 .inner-page .main-navigation {
@@ -1516,6 +1517,7 @@ a {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
+	display: none;
 }
 
 .write-us h2 {
