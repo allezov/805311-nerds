@@ -2,7 +2,7 @@ body {
 	min-width: 1200px;
 	margin: 0;
 	padding: 0;
-	font-family: "Roboto", sans-serif;
+	font-family: "Roboto", Arial, sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 400;
@@ -13,8 +13,10 @@ body {
 	opacity: 0.8;
 }
 
-.main-header-logo:active {
+
+.main-header-logo > img:active {
 	opacity: 0.3;
+
 }
 
 .main-header {
@@ -210,10 +212,6 @@ a {
 .active {
 	border-bottom: 2px solid red;
 	padding-bottom: 9px;
-}
-
-.site-navigation-current .active:active {
-	color: red;
 }
 
 .slide-header-1 {
@@ -412,7 +410,7 @@ a {
 	color: #283136;
 }
 
-.th td {
+.up-table td {
 	font-size: 45px;
 	line-height: 45px;
 	font-weight: 700;
@@ -452,7 +450,6 @@ a {
 }
 
 .info-about {
-
 	width: 660px;
 }
 
@@ -519,7 +516,6 @@ a {
 .page-title {
 	padding-top: 68px;
 	padding-bottom: 108px;
-	width: 1440px;
 	font-size: 55px;
 	line-height: 55px;
 	font-weight: 500;
@@ -841,6 +837,7 @@ a {
 	position: absolute;
 	bottom: -1px;
 	visibility: hidden;
+	overflow-y: auto;
 }
 
 .catalog-info h3 {
@@ -880,7 +877,6 @@ a {
 	font-size: 18px;
 	line-height: 30px;
 }
-
 
 .main-navigation {
 	padding-top: 49px;
@@ -959,7 +955,6 @@ a {
 	width: 1160px;
 	margin-left: auto;
 	margin-right: auto;
-
 	border-bottom: 2px solid #eeeeee;
 	margin-bottom: 74px;
 	-webkit-box-sizing: border-box;
@@ -1077,7 +1072,7 @@ a {
 	opacity: 1;
 }
 
-.partner-img:active {
+.partner-img > img:active {
 	opacity: 0.1;
 }
 
@@ -1271,49 +1266,44 @@ a {
 	margin-right: 16px;
 }
 
-.treangle {
+.sort-list .treangle {
+	display: block;
 	width: 12px;
 	height: 20px;
 	background-image: url("../img/icon-down-dir.svg");
 	background-repeat: no-repeat;
-	background-position: 0px 5px;
-}
-
-.treangle a {
-	padding: 10px;
-	display: block;
-}
-
-.treangle:hover {
-	opacity: 0.6;
-}
-
-.treangle:active,
-.treangle:focus {
+	background-position: 0px 3px;
 	opacity: 1;
 }
 
-.treangle-inverse {
+.sort-list .treangle:hover {
+	opacity: 0.5;
+
+}
+
+.sort-list .treangle:active,
+.sort-list .treangle:focus {
+	opacity: 1;
+
+}
+
+.sort-list .treangle-inverse {
+	display: block;
 	width: 12px;
 	height: 20px;
 	background-image: url("../img/icon-up-dir.svg");
 	background-repeat: no-repeat;
-	background-position: 0 5px;
+	background-position: 0 3px;
 	opacity: 0.2;
 }
 
-.treangle-inverse:hover {
+.sort-list .treangle-inverse:hover {
 	opacity: 0.6;
 }
 
-.treangle-inverse:active,
-.treangle-inverse:focus {
+.sort-list .treangle-inverse:active,
+.sort-list .treangle-inverse:focus {
 	opacity: 1;
-}
-
-.treangle-inverse a {
-	display: block;
-	padding: 10px;
 }
 
 .sort-right:last-child {
@@ -1407,8 +1397,6 @@ a {
 	-ms-flex-line-pack: center;
 	align-content: center;
 	margin-right: 11px;
-
-
 }
 
 .pagination-item a {
