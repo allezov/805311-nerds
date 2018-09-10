@@ -314,6 +314,7 @@ a {
 }
 
 .info-about .margin-about {
+	margin: 0;
 	font-size: 45px;
 	line-height: 45px;
 	font-weight: 500;
@@ -358,7 +359,7 @@ a {
 	position: absolute;
 	width: 25px;
 	height: 2px;
-	background-color:#fb565a;
+	background-color: #fb565a;
 	left: -36px;
 	bottom: 11px;
 }
@@ -433,10 +434,6 @@ a {
 	font-weight: 500;
 }
 
-.margin-about {
-	margin: 0;
-}
-
 .info {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -484,30 +481,6 @@ a {
 	fill: rgba(255, 255, 255, 0.3);
 }
 
-.btn-close {
-	opacity: 0.3;
-}
-
-.btn-close:hover {
-	opacity: 1;
-}
-
-.btn-close:focus {
-	opacity: 0.1;
-}
-
-.fix {
-	border: 2px solid #ebeeef;
-}
-
-.fix:hover {
-	border: 2px solid #dadcdd;
-}
-
-.fix:focus {
-	border: 2px solid #7f7f7f;
-}
-
 .catalog-title {
 	width: 100%;
 	background-color: #eeeeee;
@@ -548,19 +521,6 @@ a {
 .filters {
 	width: 260px;
 	height: 785px;
-}
-
-.range {
-	height: 80px;
-	margin-bottom: 7px;
-}
-
-.from-until {
-	width: 260px;
-	margin: 0;
-	padding: 0;
-	text-transform: uppercase;
-	margin-bottom:
 }
 
 .upper {
@@ -1505,11 +1465,8 @@ a {
 .write-us {
 	background-color: #ffffff;
 	padding-left: 100px;
-	position: relative;
 	width: 960px;
 	height: 590px;
-	margin-left: auto;
-	margin-right: auto;
 	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 	box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.75);
 	-webkit-box-sizing: border-box;
@@ -1518,6 +1475,7 @@ a {
 	left: 50%;
 	bottom: 182px;
 	margin-left: -480px;
+	display: none;
 }
 
 .write-us h2 {
@@ -1541,6 +1499,15 @@ a {
 	background-image: url("../img/close-cross.svg");
 	background-repeat: no-repeat;
 	background-position: 0 0;
+	opacity: 0.3;
+}
+
+.btn-close:hover {
+	opacity: 1;
+}
+
+.btn-close:focus {
+	opacity: 0.1;
 }
 
 .form-flex {
@@ -1557,6 +1524,15 @@ a {
 	font-weight: 400;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
+	border: 2px solid #ebeeef;
+}
+
+.fix:hover {
+	border: 2px solid #dadcdd;
+}
+
+.fix:focus {
+	border: 2px solid #7f7f7f;
 }
 
 .fix:invalid {
