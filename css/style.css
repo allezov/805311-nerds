@@ -726,12 +726,18 @@ a {
 	opacity: 0.3;
 }
 
+/*
 .filter-input:hover + label::before {
 	opacity: 1;
 }
+*/
 
 .filter-input:hover + label::after {
 	opacity: 1;
+}
+.filter-input:focus + label::after {
+	opacity: 1;
+/*	outline: 1px dashed red;*/
 }
 
 .filter-input-radio:checked + label::before {
@@ -786,9 +792,15 @@ a {
 	opacity: 1;
 }
 
+.filter-input-radio:focus + label::before {
+	opacity: 1;
+}
+/*
+
 .filter-input-radio:hover + label::after {
 	opacity: 1;
 }
+*/
 
 .filter-input-radio:disabled + label {
 	opacity: 0.3;
@@ -1299,12 +1311,13 @@ a {
 	position: relative;
 }
 
-.up-panel::before {
+.up-panel::after {
 	content: "";
 	position: absolute;
 	width: 360px;
 	height: 620px;
 	top: 1px;
+	left: 0;
 	background-image: url("../img/browser.svg");
 	background-repeat: no-repeat;
 	background-position: 0 0;
@@ -1319,7 +1332,7 @@ a {
 	height: 616px;
 }
 
-.catalog-item:hover .up-panel::before {
+.catalog-item:hover .up-panel::after {
 	opacity: 1;
 }
 
