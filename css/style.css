@@ -735,9 +735,10 @@ a {
 .filter-input:hover + label::after {
 	opacity: 1;
 }
+
 .filter-input:focus + label::after {
 	opacity: 1;
-/*	outline: 1px dashed red;*/
+	/*	outline: 1px dashed red;*/
 }
 
 .filter-input-radio:checked + label::before {
@@ -795,6 +796,7 @@ a {
 .filter-input-radio:focus + label::before {
 	opacity: 1;
 }
+
 /*
 
 .filter-input-radio:hover + label::after {
@@ -1087,6 +1089,7 @@ a {
 
 .map iframe {
 	width: 100%;
+	border: none;
 }
 
 .map-img {
@@ -1509,12 +1512,12 @@ a {
 .modal-show {
 	display: block;
 	-webkit-animation: bounce 0.6s;
-	        animation: bounce 0.6s;
+	animation: bounce 0.6s;
 }
 
 .modal-error {
 	-webkit-animation: shake 0.6s;
-	        animation: shake 0.6s;
+	animation: shake 0.6s;
 }
 
 .write-us h2 {
@@ -1638,44 +1641,44 @@ a {
 @-webkit-keyframes bounce {
 	0% {
 		-webkit-transform: translateY(-200px);
-		        transform: translateY(-200px);
+		transform: translateY(-200px);
 	}
 
 	70% {
 		-webkit-transform: translateY(30px);
-		        transform: translateY(30px);
+		transform: translateY(30px);
 	}
 
 	90% {
 		-webkit-transform: translateY(-10px);
-		        transform: translateY(-10px);
+		transform: translateY(-10px);
 	}
 
 	100% {
 		-webkit-transform: translateY(0);
-		        transform: translateY(0);
+		transform: translateY(0);
 	}
 }
 
 @keyframes bounce {
 	0% {
 		-webkit-transform: translateY(-200px);
-		        transform: translateY(-200px);
+		transform: translateY(-200px);
 	}
 
 	70% {
 		-webkit-transform: translateY(30px);
-		        transform: translateY(30px);
+		transform: translateY(30px);
 	}
 
 	90% {
 		-webkit-transform: translateY(-10px);
-		        transform: translateY(-10px);
+		transform: translateY(-10px);
 	}
 
 	100% {
 		-webkit-transform: translateY(0);
-		        transform: translateY(0);
+		transform: translateY(0);
 	}
 }
 
@@ -1684,7 +1687,7 @@ a {
 	0%,
 	100% {
 		-webkit-transform: translateX(0);
-		        transform: translateX(0);
+		transform: translateX(0);
 	}
 
 	10%,
@@ -1693,7 +1696,7 @@ a {
 	70%,
 	90% {
 		-webkit-transform: translateX(-10px);
-		        transform: translateX(-10px);
+		transform: translateX(-10px);
 	}
 
 	20%,
@@ -1701,7 +1704,7 @@ a {
 	60%,
 	80% {
 		-webkit-transform: translateX(10px);
-		        transform: translateX(10px);
+		transform: translateX(10px);
 	}
 }
 
@@ -1710,7 +1713,7 @@ a {
 	0%,
 	100% {
 		-webkit-transform: translateX(0);
-		        transform: translateX(0);
+		transform: translateX(0);
 	}
 
 	10%,
@@ -1719,7 +1722,7 @@ a {
 	70%,
 	90% {
 		-webkit-transform: translateX(-10px);
-		        transform: translateX(-10px);
+		transform: translateX(-10px);
 	}
 
 	20%,
@@ -1727,6 +1730,6 @@ a {
 	60%,
 	80% {
 		-webkit-transform: translateX(10px);
-		        transform: translateX(10px);
+		transform: translateX(10px);
 	}
 }
